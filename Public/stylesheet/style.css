@@ -1,0 +1,341 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border;
+   font-family: Gilroy,Matter, Matter Light,GT Walsheim Avid,FontAwsome;
+}
+
+html, body {
+    height: 100%; 
+    width: 100%; 
+    background-color: rgb(248, 248, 248);
+    
+}
+
+#main{
+    width: 100%;
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 7vw;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+}
+
+#nleft{
+    display:flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+#nright{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+#home{
+    width: 100%;
+    margin-top: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hleft{
+width: 15vw;
+padding: 0 7vw;
+}
+#sustnable{
+    width: 12vw;  
+}
+#sustnable p{
+    font-size: 12px;
+    font-weight: 800;
+    padding:5px 0;
+    opacity: .5;   
+}
+#sustnable_img{
+    position: relative;
+    width: 12vw;
+    height: 15vw;
+    background-color: red;
+    overflow: hidden;
+}
+#sustnable_img img{
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+}
+#hcenter{
+    position: relative;
+    width:26vw;
+    min-height: 40vw; 
+    margin: 0 2vw;
+    left: -2%;
+    
+}
+
+#hcenter img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#hcenter p{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1;
+    line-height: .9;
+    width: 50%;
+    padding-top: 6px;
+}
+
+#hcenter #heading{
+    position: absolute;
+    top: -12%;
+    left: -13%;
+}
+#hcenter h3{
+    letter-spacing: -.4vw;
+    line-height: 1;
+    font-size: 4.2vw;
+    font-weight: 300;
+    color: rgb(6, 6, 6);
+}
+
+
+
+
+
+#hright{
+    width: 12vw;
+    height: 50px;
+    padding: 0 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hright h3{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+
+#circlev{
+    width: 3.2vw;
+    height: 3.2vw;
+    background-color: rgb(130, 130, 130);
+    border-radius: 50%;
+    align-items: center;
+    justify-self: center;
+    margin: 0 3px;
+    border: 2px solid rgb(42, 42, 42);
+    position: relative;
+    
+}
+#circlev i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    justify-content: center;
+}
+
+#motive{
+    padding: 3vw 7vw;
+    justify-content: space-between;
+}
+#motive h3{
+    padding: 2.1vw 7vw;
+    text-transform: uppercase;
+    opacity: .5;
+    font-size: 18px;
+}
+
+
+#motive p{
+    width: 950px;
+    text-align: right;
+    padding: 0 7vw;
+    line-height: 1.2vw;
+    align-items: center;
+    justify-content: center;
+
+}
+#motive span{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: red;
+    object-fit: cover;
+    
+
+}
+#onespan{
+    background-image: url("https://images.pexels.com/photos/832521/pexels-photo-832521.jpeg?auto=compress&cs=tinysrgb&w=600");
+    margin: 10px 0;
+}
+#twospan{
+    background-image: url("https://images.pexels.com/photos/6231833/pexels-photo-6231833.jpeg?auto=compress&cs=tinysrgb&w=600");
+    margin: 10px 0;
+}
+
+
+#pictures{
+    display: flex;
+    padding: 4vw;
+    padding-left: 12vw;
+    padding-right: 15vw;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#left{
+    width: 20vw;
+}
+
+#leftpic{
+    width: 20vw;
+    height: 25vw;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+
+#leftpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#left p{
+    align-items: left;
+    font-size: 18px;
+    font-weight: 400;
+    width: 180px;
+   margin-top: 3px;
+}
+#right{
+    text-align: right;
+    width: 24vw;
+}
+#rightpic{
+    width: 24vw;
+    min-height: 36vw;
+    overflow: hidden;
+    margin-bottom: 3%;
+    
+}
+#rightpic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#right p{
+    margin-left: 170px;
+    font-size: 18px;
+    font-weight: 400;
+    width: 200px;
+    text-align: right;
+   margin-top: 10px;
+
+}
+
+#banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+}
+#bimg{
+    width: 75%;
+    height: 25vw;
+    background-color: red;
+    overflow: hidden;
+}
+#bimg img{
+    
+    width: 100%;
+    height: 100%;
+    object-position: 10% 70%;
+    object-fit: cover;
+}
+#btext{
+width:35%;
+padding: 2VW 5VW;
+
+}
+
+#btext h3{
+    font-size: 2.8vw;
+    font-weight: 400;
+    letter-spacing: -.15vw;
+    line-height: .9;
+}
+
+#btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+}
+
+
+#future{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+#future video{
+    position: absolute;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+#expo{
+    position: absolute;
+    width: 18vw;
+    height: 7vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(234, 222, 222, 0.847);
+    z-index: 99;
+
+}
+#expo h2{
+    margin: 10px 5px;
+    font-weight: 700;
+    font-size: 1.5vw;
+
+}
+
+#expo button{
+    margin: 3px 4px;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+
+}

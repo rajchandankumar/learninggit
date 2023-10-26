@@ -1,0 +1,14 @@
+ejs setup karne ke liye
+
+1) npm i ejs 
+
+2) configure ejs 
+
+app.set("view engine", "ejs")
+
+3) ek view folder banao 
+
+4)usmein ejs file banao
+
+5)send ki jagah render karo 
+6)templet engin = pug, handlebars, ejs etc
